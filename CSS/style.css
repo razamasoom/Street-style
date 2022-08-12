@@ -1,0 +1,149 @@
+body {
+    font-family: "orbitron", "Times New Roman";
+  }
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    width: 100%;
+    margin: 0px 20px;
+  }
+  .list {
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 230px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+  }
+  .list-item {
+    margin-inline-start: 50px;
+    font-size: 20px;
+  }
+  .brand-img {
+    flex: 1;
+    margin: 30px;
+  }
+  .button-group{
+      position: absolute;
+      right: 100px;
+      top: 0px;
+    
+  }
+  .nav-button {
+    position: absolute;
+    top: 57px;
+    right: 100px;
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: 20px;
+    padding-bottom: 3px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 3px;
+    color: #807e7e;
+  }
+  .search-icon {
+    position: absolute;
+    display: block;
+    top: 64px;
+    right: 255px;
+  }
+  .square {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    left: 80px;
+    bottom: 10px;
+    z-index: -1;
+  }
+  
+  .hero-heading {
+    position: absolute;
+    right: 300px;
+    top: 180px;
+    font-weight: 800;
+    font-size: 40px;
+  }
+  .globe {
+    position: absolute;
+    right: 325px;
+    height: 50px;
+  }
+  .person-image {
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    bottom: 34px;
+    left: 50px;
+  }
+  
+  .hero-description {
+    position: absolute;
+    font-size: 10px;
+    top: 290px;
+    left: 560px;
+    text-align: center;
+  }
+  .star {
+    position: absolute;
+    top: 80px;
+    right: 155px;
+    height: 45px;
+  }
+  .star-2 {
+    position: absolute;
+    bottom: 40px;
+    left: 280px;
+    height: 40px;
+  }
+  .contact-heading {
+    position: absolute;
+    bottom: 90px;
+    right: 520px;
+  }
+  
+  .buttons {
+    position: absolute;
+    bottom: 175px;
+    right: 430px;
+  }
+  .icons {
+    position: absolute;
+    bottom: 50px;
+    right: 480px;
+  
+  }
+  
+  .button-email {
+    padding: 3px 10px;
+    font-family: "orbitron";
+    background-color: transparent;
+    font-size: 17px;
+    border-radius: 8px;
+    margin-right: 3px;
+  }
+  .button-join {
+    padding: 3px 10px;
+    font-family: "orbitron";
+    background-color: black;
+    color: #ffffff;
+    font-size: 17px;
+    border-radius: 8px;
+    margin-left: 5px;
+  }
+  
+  .social-icons{
+      height: 30px;
+      margin-right: 7px;
+  }
+  .list-item:hover{
+      text-decoration: underline;
+      font-weight: 600;
+      cursor: grab;
+     
+  }
